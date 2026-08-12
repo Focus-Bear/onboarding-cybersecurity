@@ -47,8 +47,8 @@ To allow the script to create issues, labels, and milestones, you need to genera
 ### **3️⃣ Clone This Repository**
 Download the source repository to your local machine:
 ```sh
- git clone https://github.com/Focus-Bear/onboarding-generic.git
- cd onboarding-generic
+ git clone https://github.com/Focus-Bear/onboarding-cybersecurity.git
+ cd onboarding-cybersecurity
 ```
 
 ### **4️⃣ Run the Script to Duplicate Issues, Labels, and Milestones**
@@ -71,8 +71,8 @@ npm install
 2. Open `.env` and edit the following:
    ```ini
    GITHUB_TOKEN=your_github_token_here
-   SOURCE_REPO=Focus-Bear/onboarding-generic
-   DEST_REPOS=["your-username-intern-repo"]
+   SOURCE_REPO=Focus-Bear/onboarding-cybersecurity
+   DEST_REPOS=["your-github-username/name-intern-repo"]
    ```
    - Replace `your_github_token_here` with your **GitHub Personal Access Token**.
    - Replace `your-username-intern-repo` with your **new repository name**. Make sure it is enclosed in [" and "]
@@ -80,7 +80,7 @@ npm install
    ```ini
    GITHUB_TOKEN=github_pat_11A22B33C_d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z
    SOURCE_REPO=Focus-Bear/onboarding-cybersecurity
-   DEST_REPOS=["amanda-intern-repo"]
+   DEST_REPOS=["spiderman/peter-intern-repo"]
    ```
      
 
